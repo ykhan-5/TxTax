@@ -17,25 +17,25 @@ function CategoryItem({ category }: { category: CategorySpending }) {
     <div className="border border-gray-100 rounded-xl overflow-hidden bg-white">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full px-5 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors cursor-pointer"
+        className="w-full px-4 sm:px-5 py-3 sm:py-4 flex items-center justify-between hover:bg-gray-50 transition-colors cursor-pointer"
       >
-        <div className="flex items-center gap-3">
-          <span className="text-2xl">{CATEGORY_EMOJIS[category.category]}</span>
-          <div className="text-left">
-            <span className="font-heading font-semibold text-charcoal">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          <span className="text-xl sm:text-2xl shrink-0">{CATEGORY_EMOJIS[category.category]}</span>
+          <div className="text-left min-w-0">
+            <span className="font-heading font-semibold text-charcoal text-sm sm:text-base">
               {category.label}
             </span>
-            <span className="ml-2 text-sm text-charcoal/40">
+            <span className="ml-1 sm:ml-2 text-xs sm:text-sm text-charcoal/40">
               {formatPercentage(category.percentage)}
             </span>
           </div>
         </div>
-        <div className="flex items-center gap-3">
-          <span className="font-mono font-bold text-texas-blue">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0 ml-2">
+          <span className="font-mono font-bold text-texas-blue text-sm sm:text-base">
             {formatCurrency(category.perCapita)}
           </span>
           <svg
-            className={`w-5 h-5 text-charcoal/30 transition-transform ${open ? "rotate-180" : ""}`}
+            className={`w-4 h-4 sm:w-5 sm:h-5 text-charcoal/30 transition-transform ${open ? "rotate-180" : ""}`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -54,12 +54,18 @@ function CategoryItem({ category }: { category: CategorySpending }) {
             transition={{ duration: 0.2 }}
             className="overflow-hidden"
           >
-            <div className="px-5 pb-4 space-y-3">
+            <div className="px-4 sm:px-5 pb-4 space-y-3">
               {category.subcategories.map((sub) => (
-                <div key={sub.name} className="flex items-center justify-between">
-                  <div className="flex items-center gap-3 flex-1 min-w-0">
-                    <span className="text-sm text-charcoal/70 truncate">{sub.name}</span>
-                    <div className="flex-1 h-2 bg-gray-100 rounded-full min-w-[60px]">
+                <div key={sub.name}>
+                  {/* Mobile: stack name above bar; Desktop: inline */}
+                  <div className="flex items-center justify-between mb-1 sm:mb-0">
+                    <span className="text-xs sm:text-sm text-charcoal/70 truncate">{sub.name}</span>
+                    <span className="font-mono text-xs sm:text-sm text-charcoal/60 ml-2 shrink-0 sm:hidden">
+                      {formatCurrency(sub.perCapita)}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="flex-1 h-2 bg-gray-100 rounded-full">
                       <div
                         className="h-full rounded-full"
                         style={{
@@ -69,10 +75,10 @@ function CategoryItem({ category }: { category: CategorySpending }) {
                         }}
                       />
                     </div>
+                    <span className="font-mono text-sm text-charcoal/60 shrink-0 hidden sm:inline">
+                      {formatCurrency(sub.perCapita)}
+                    </span>
                   </div>
-                  <span className="font-mono text-sm text-charcoal/60 ml-3 shrink-0">
-                    {formatCurrency(sub.perCapita)}
-                  </span>
                 </div>
               ))}
             </div>

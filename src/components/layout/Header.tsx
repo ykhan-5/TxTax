@@ -18,7 +18,7 @@ export function Header() {
           </Link>
           {/* GitHub */}
           <a
-            href="#"
+            href="https://github.com/ykhan-5/TxTax"
             target="_blank"
             rel="noopener noreferrer"
             className="text-charcoal/50 hover:text-charcoal transition-colors"

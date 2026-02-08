@@ -69,12 +69,12 @@ export function ShareSection({
         Show your friends where their money goes
       </p>
 
-      <div className="flex flex-wrap justify-center gap-3">
+      <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-3">
         {/* Native Share (mobile) */}
         {typeof navigator !== "undefined" && "share" in navigator && (
           <button
             onClick={handleNativeShare}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl
+            className="col-span-2 inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-2.5 rounded-xl
               bg-texas-blue text-white font-medium
               hover:bg-texas-blue/90 transition-colors cursor-pointer"
           >
@@ -90,7 +90,7 @@ export function ShareSection({
           href={twitterUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl
+          className="inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-2.5 rounded-xl
             border border-gray-200 text-charcoal font-medium
             hover:bg-gray-50 transition-colors"
         >
@@ -105,7 +105,7 @@ export function ShareSection({
           href={facebookUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl
+          className="inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-2.5 rounded-xl
             border border-gray-200 text-charcoal font-medium
             hover:bg-gray-50 transition-colors"
         >
@@ -120,7 +120,7 @@ export function ShareSection({
           href={redditUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl
+          className="inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-2.5 rounded-xl
             border border-gray-200 text-charcoal font-medium
             hover:bg-gray-50 transition-colors"
         >
@@ -133,7 +133,7 @@ export function ShareSection({
         {/* Copy Link */}
         <button
           onClick={handleCopyLink}
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl
+          className="col-span-2 sm:col-span-1 inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-2.5 rounded-xl
             border border-gray-200 text-charcoal font-medium
             hover:bg-gray-50 transition-colors cursor-pointer"
         >

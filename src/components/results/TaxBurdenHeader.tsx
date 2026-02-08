@@ -37,20 +37,20 @@ export function TaxBurdenHeader({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="text-center py-12 px-6 bg-gradient-to-b from-texas-blue/5 to-transparent rounded-3xl"
+      className="text-center py-8 sm:py-12 px-4 sm:px-6 bg-gradient-to-b from-texas-blue/5 to-transparent rounded-2xl sm:rounded-3xl"
     >
-      <p className="text-sm text-charcoal/50 uppercase tracking-wider font-medium">
+      <p className="text-xs sm:text-sm text-charcoal/50 uppercase tracking-wider font-medium">
         In FY {fiscalYear}, residents of ZIP {zipCode} ({countyName} County) paid an estimated
       </p>
-      <div className="mt-4 mb-2">
-        <span className="text-5xl sm:text-6xl md:text-7xl font-mono font-bold text-texas-blue">
+      <div className="mt-3 sm:mt-4 mb-2">
+        <span className="text-4xl sm:text-6xl md:text-7xl font-mono font-bold text-texas-blue">
           <AnimatedNumber value={estimatedPerCapitaTax} />
         </span>
       </div>
-      <p className="text-lg text-charcoal/60">
+      <p className="text-base sm:text-lg text-charcoal/60">
         per person in Texas state taxes
       </p>
-      <p className="mt-6 text-charcoal/70 font-heading font-semibold text-xl">
+      <p className="mt-4 sm:mt-6 text-charcoal/70 font-heading font-semibold text-lg sm:text-xl">
         Here&apos;s where it went...
       </p>
     </motion.section>

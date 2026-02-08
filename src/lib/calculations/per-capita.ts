@@ -4,6 +4,7 @@ import {
   getCountySpending,
   getCountyCensus,
   getStateMedianIncome,
+  getStatewidePerCapita,
   buildCategoryBreakdown,
 } from "@/lib/data/spending";
 import { generateWeirdItems } from "@/lib/data/weird-items";
@@ -16,6 +17,7 @@ import { generateWeirdItems } from "@/lib/data/weird-items";
  *   → Map agencies → 5 categories
  *   → County population (Census)
  *   → Per-capita = total / population
+ *   → Cap at statewide per-capita if inflated by agency HQ attribution
  *   → Adjust by income multiplier (ZIP median / state median)
  *   → Generate weird items
  */
@@ -38,14 +40,23 @@ export async function calculateSpending(
   const stateMedian = await getStateMedianIncome();
 
   // 5. Calculate income multiplier
-  // ZIP-level income data isn't available without ZCTA queries, so
-  // we use the county median income as a proxy for now.
-  // In a future version, we could fetch ZCTA-level income from Census.
   const incomeMultiplier =
     stateMedian > 0 ? census.medianHouseholdIncome / stateMedian : 1;
 
   // 6. Calculate base per-capita (county spending / county population)
-  const basePerCapita = spending.totalSpending / census.population;
+  let basePerCapita = spending.totalSpending / census.population;
+
+  // 6b. Cap inflated counties (e.g. Travis County where state agency HQs
+  // cause spending to be attributed locally instead of statewide).
+  // If a county's per-capita exceeds 2x the statewide average, use the
+  // statewide average instead.
+  const statewidePerCapita = await getStatewidePerCapita();
+  const capRatio = basePerCapita / statewidePerCapita;
+  console.log(`[DEBUG] ZIP ${zipCode}: basePerCapita=${basePerCapita.toFixed(0)}, statewidePerCapita=${statewidePerCapita.toFixed(0)}, capRatio=${capRatio.toFixed(2)}`);
+  if (capRatio > 2) {
+    basePerCapita = statewidePerCapita;
+    console.log(`[DEBUG] Capped to statewide: ${basePerCapita.toFixed(0)}`);
+  }
 
   // 7. Adjust by income multiplier
   const adjustedPerCapita = Math.round(basePerCapita * incomeMultiplier);
@@ -57,11 +68,12 @@ export async function calculateSpending(
     census.population
   );
 
-  // Adjust per-capita amounts by income multiplier
+  // Scale down category per-capita if county was capped, then apply income multiplier
+  const scaleFactor = capRatio > 2 ? (1 / capRatio) : 1;
   for (const cat of categories) {
-    cat.perCapita = Math.round(cat.perCapita * incomeMultiplier);
+    cat.perCapita = Math.round(cat.perCapita * scaleFactor * incomeMultiplier);
     for (const sub of cat.subcategories) {
-      sub.perCapita = Math.round(sub.perCapita * incomeMultiplier);
+      sub.perCapita = Math.round(sub.perCapita * scaleFactor * incomeMultiplier);
     }
   }
 

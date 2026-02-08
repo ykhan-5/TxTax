@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import {
   BarChart,
   Bar,
@@ -22,6 +23,14 @@ interface SpendingBarChartProps {
 interface TooltipPayloadEntry {
   payload: CategorySpending;
 }
+
+const SHORT_LABELS: Record<string, string> = {
+  Education: "Education",
+  "Health & Human Services": "Health",
+  Transportation: "Transport",
+  "Public Safety": "Safety",
+  "Other Government": "Other",
+};
 
 function CustomTooltip({
   active,
@@ -47,10 +56,23 @@ function CustomTooltip({
   );
 }
 
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mql = window.matchMedia("(max-width: 639px)");
+    setIsMobile(mql.matches);
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mql.addEventListener("change", handler);
+    return () => mql.removeEventListener("change", handler);
+  }, []);
+  return isMobile;
+}
+
 export function SpendingBarChart({
   categories,
   onCategoryClick,
 }: SpendingBarChartProps) {
+  const isMobile = useIsMobile();
   const sortedCategories = [...categories].sort(
     (a, b) => b.perCapita - a.perCapita
   );
@@ -65,27 +87,30 @@ export function SpendingBarChart({
       <h2 className="font-heading text-2xl font-bold text-charcoal mb-6">
         The Big Picture
       </h2>
-      <div className="w-full h-80">
+      <div className="w-full h-72 sm:h-80">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={sortedCategories}
             layout="vertical"
-            margin={{ top: 0, right: 20, bottom: 0, left: 0 }}
+            margin={{ top: 0, right: 10, bottom: 0, left: 0 }}
           >
             <XAxis
               type="number"
               tickFormatter={(v) => `$${v}`}
-              tick={{ fontSize: 12, fill: "#2b2d42" }}
+              tick={{ fontSize: isMobile ? 10 : 12, fill: "#2b2d42" }}
               axisLine={false}
               tickLine={false}
             />
             <YAxis
               type="category"
               dataKey="label"
-              width={160}
-              tick={{ fontSize: 14, fill: "#2b2d42" }}
+              width={isMobile ? 80 : 160}
+              tick={{ fontSize: isMobile ? 11 : 14, fill: "#2b2d42" }}
               axisLine={false}
               tickLine={false}
+              tickFormatter={(label: string) =>
+                isMobile ? (SHORT_LABELS[label] || label) : label
+              }
             />
             <Tooltip content={<CustomTooltip />} cursor={{ fill: "#f0f0f0" }} />
             <Bar

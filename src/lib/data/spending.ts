@@ -111,6 +111,17 @@ export async function getStateMedianIncome(): Promise<number> {
   return census.stateMedianIncome;
 }
 
+export async function getStatewidePerCapita(): Promise<number> {
+  const { spending, census } = await loadData();
+  const totalStateSpending = Object.values(spending.counties).reduce(
+    (sum, c) => sum + c.totalSpending,
+    0
+  );
+  return census.statePopulation > 0
+    ? totalStateSpending / census.statePopulation
+    : 0;
+}
+
 export async function getFiscalYear(): Promise<string> {
   const { spending } = await loadData();
   return spending.fiscalYear;

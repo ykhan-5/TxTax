@@ -57,7 +57,7 @@ function CountyMapInner({ countyName, totalCountySpending, countyFips }: CountyM
 
   if (!loaded || !MapContainer || !GeoJSON || !TileLayer || !geoData) {
     return (
-      <div className="w-full h-80 bg-gray-100 rounded-xl animate-pulse flex items-center justify-center text-charcoal/30">
+      <div className="w-full h-60 sm:h-80 bg-gray-100 rounded-xl animate-pulse flex items-center justify-center text-charcoal/30">
         Loading map...
       </div>
     );
@@ -91,8 +91,9 @@ function CountyMapInner({ countyName, totalCountySpending, countyFips }: CountyM
       center={[31.5, -99.5]}
       zoom={5}
       scrollWheelZoom={false}
-      style={{ height: "320px", width: "100%", borderRadius: "12px" }}
-      className="z-0"
+      dragging={typeof window !== "undefined" && window.innerWidth >= 640}
+      style={{ width: "100%", borderRadius: "12px" }}
+      className="z-0 h-60 sm:h-80"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

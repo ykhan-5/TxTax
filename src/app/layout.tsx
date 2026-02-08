@@ -3,7 +3,7 @@ import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { Analytics } from "@vercel/analytics/next"; // 👈 ADD THIS
+import { Analytics } from "@vercel/analytics/next"; 
 
 const inter = Inter({
   variable: "--font-inter",
@@ -25,6 +25,31 @@ export const metadata: Metadata = {
   description:
     "Enter your ZIP code to see exactly where your Texas state tax dollars went. Personal, specific, and shareable.",
   keywords: ["Texas", "taxes", "state spending", "government", "transparency"],
+
+  openGraph: {
+    title: "TxTax — Where Does Your Texas Tax Money Go?",
+    description:
+      "Enter your ZIP code to see exactly where your Texas state tax dollars went.",
+    url: "https://tx-tax.vercel.app",
+    siteName: "TxTax",
+    images: [
+      {
+        url: "https://tx-tax.vercel.app/us-tx.png",
+        width: 1200,
+        height: 630,
+        alt: "TxTax — Texas tax transparency",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "TxTax — Where Does Your Texas Tax Money Go?",
+    description:
+      "See exactly where your Texas state tax dollars went.",
+    images: ["https://tx-tax.vercel.app/us-tx.png"],
+  },
 };
 
 export default function RootLayout({
