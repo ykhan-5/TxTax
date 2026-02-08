@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "TxTax",
     images: [
       {
-        url: "https://tx-tax.vercel.app/us-tx.png",
+        url: "https://tx-tax.vercel.app/og.png",
         width: 1200,
         height: 630,
         alt: "TxTax — Texas tax transparency",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: "TxTax — Where Does Your Texas Tax Money Go?",
     description:
       "See exactly where your Texas state tax dollars went.",
-    images: ["https://tx-tax.vercel.app/us-tx.png"],
+    images: ["https://tx-tax.vercel.app/og.png"],
   },
 };
 
