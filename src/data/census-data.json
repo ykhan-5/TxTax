@@ -1,0 +1,1531 @@
+{
+  "generatedAt": "2026-02-08T12:50:14.473Z",
+  "stateMedianIncome": 73035,
+  "statePopulation": 29243342,
+  "counties": {
+    "ANDERSON": {
+      "countyFips": "48001",
+      "countyName": "Anderson",
+      "population": 58077,
+      "medianHouseholdIncome": 57445
+    },
+    "ANDREWS": {
+      "countyFips": "48003",
+      "countyName": "Andrews",
+      "population": 18362,
+      "medianHouseholdIncome": 86458
+    },
+    "ANGELINA": {
+      "countyFips": "48005",
+      "countyName": "Angelina",
+      "population": 86608,
+      "medianHouseholdIncome": 57055
+    },
+    "ARANSAS": {
+      "countyFips": "48007",
+      "countyName": "Aransas",
+      "population": 24048,
+      "medianHouseholdIncome": 58168
+    },
+    "ARCHER": {
+      "countyFips": "48009",
+      "countyName": "Archer",
+      "population": 8649,
+      "medianHouseholdIncome": 69954
+    },
+    "ARMSTRONG": {
+      "countyFips": "48011",
+      "countyName": "Armstrong",
+      "population": 1912,
+      "medianHouseholdIncome": 70417
+    },
+    "ATASCOSA": {
+      "countyFips": "48013",
+      "countyName": "Atascosa",
+      "population": 49403,
+      "medianHouseholdIncome": 67442
+    },
+    "AUSTIN": {
+      "countyFips": "48015",
+      "countyName": "Austin",
+      "population": 30406,
+      "medianHouseholdIncome": 73556
+    },
+    "BAILEY": {
+      "countyFips": "48017",
+      "countyName": "Bailey",
+      "population": 6902,
+      "medianHouseholdIncome": 69830
+    },
+    "BANDERA": {
+      "countyFips": "48019",
+      "countyName": "Bandera",
+      "population": 21182,
+      "medianHouseholdIncome": 70965
+    },
+    "BASTROP": {
+      "countyFips": "48021",
+      "countyName": "Bastrop",
+      "population": 98435,
+      "medianHouseholdIncome": 80151
+    },
+    "BAYLOR": {
+      "countyFips": "48023",
+      "countyName": "Baylor",
+      "population": 3475,
+      "medianHouseholdIncome": 52716
+    },
+    "BEE": {
+      "countyFips": "48025",
+      "countyName": "Bee",
+      "population": 30977,
+      "medianHouseholdIncome": 50283
+    },
+    "BELL": {
+      "countyFips": "48027",
+      "countyName": "Bell",
+      "population": 372821,
+      "medianHouseholdIncome": 62858
+    },
+    "BEXAR": {
+      "countyFips": "48029",
+      "countyName": "Bexar",
+      "population": 2014059,
+      "medianHouseholdIncome": 67275
+    },
+    "BLANCO": {
+      "countyFips": "48031",
+      "countyName": "Blanco",
+      "population": 11608,
+      "medianHouseholdIncome": 79717
+    },
+    "BORDEN": {
+      "countyFips": "48033",
+      "countyName": "Borden",
+      "population": 686,
+      "medianHouseholdIncome": 80625
+    },
+    "BOSQUE": {
+      "countyFips": "48035",
+      "countyName": "Bosque",
+      "population": 18404,
+      "medianHouseholdIncome": 63868
+    },
+    "BOWIE": {
+      "countyFips": "48037",
+      "countyName": "Bowie",
+      "population": 92747,
+      "medianHouseholdIncome": 56628
+    },
+    "BRAZORIA": {
+      "countyFips": "48039",
+      "countyName": "Brazoria",
+      "population": 374600,
+      "medianHouseholdIncome": 91972
+    },
+    "BRAZOS": {
+      "countyFips": "48041",
+      "countyName": "Brazos",
+      "population": 234548,
+      "medianHouseholdIncome": 57562
+    },
+    "BREWSTER": {
+      "countyFips": "48043",
+      "countyName": "Brewster",
+      "population": 9454,
+      "medianHouseholdIncome": 47747
+    },
+    "BRISCOE": {
+      "countyFips": "48045",
+      "countyName": "Briscoe",
+      "population": 1290,
+      "medianHouseholdIncome": 35446
+    },
+    "BROOKS": {
+      "countyFips": "48047",
+      "countyName": "Brooks",
+      "population": 7059,
+      "medianHouseholdIncome": 30566
+    },
+    "BROWN": {
+      "countyFips": "48049",
+      "countyName": "Brown",
+      "population": 38159,
+      "medianHouseholdIncome": 53792
+    },
+    "BURLESON": {
+      "countyFips": "48051",
+      "countyName": "Burleson",
+      "population": 17958,
+      "medianHouseholdIncome": 71745
+    },
+    "BURNET": {
+      "countyFips": "48053",
+      "countyName": "Burnet",
+      "population": 49684,
+      "medianHouseholdIncome": 71482
+    },
+    "CALDWELL": {
+      "countyFips": "48055",
+      "countyName": "Caldwell",
+      "population": 46141,
+      "medianHouseholdIncome": 66779
+    },
+    "CALHOUN": {
+      "countyFips": "48057",
+      "countyName": "Calhoun",
+      "population": 20127,
+      "medianHouseholdIncome": 62267
+    },
+    "CALLAHAN": {
+      "countyFips": "48059",
+      "countyName": "Callahan",
+      "population": 13869,
+      "medianHouseholdIncome": 63906
+    },
+    "CAMERON": {
+      "countyFips": "48061",
+      "countyName": "Cameron",
+      "population": 421854,
+      "medianHouseholdIncome": 47435
+    },
+    "CAMP": {
+      "countyFips": "48063",
+      "countyName": "Camp",
+      "population": 12543,
+      "medianHouseholdIncome": 53968
+    },
+    "CARSON": {
+      "countyFips": "48065",
+      "countyName": "Carson",
+      "population": 5801,
+      "medianHouseholdIncome": 83199
+    },
+    "CASS": {
+      "countyFips": "48067",
+      "countyName": "Cass",
+      "population": 28637,
+      "medianHouseholdIncome": 54303
+    },
+    "CASTRO": {
+      "countyFips": "48069",
+      "countyName": "Castro",
+      "population": 7381,
+      "medianHouseholdIncome": 59886
+    },
+    "CHAMBERS": {
+      "countyFips": "48071",
+      "countyName": "Chambers",
+      "population": 47037,
+      "medianHouseholdIncome": 106103
+    },
+    "CHEROKEE": {
+      "countyFips": "48073",
+      "countyName": "Cherokee",
+      "population": 50824,
+      "medianHouseholdIncome": 56971
+    },
+    "CHILDRESS": {
+      "countyFips": "48075",
+      "countyName": "Childress",
+      "population": 6781,
+      "medianHouseholdIncome": 56063
+    },
+    "CLAY": {
+      "countyFips": "48077",
+      "countyName": "Clay",
+      "population": 10290,
+      "medianHouseholdIncome": 75227
+    },
+    "COCHRAN": {
+      "countyFips": "48079",
+      "countyName": "Cochran",
+      "population": 2529,
+      "medianHouseholdIncome": 41597
+    },
+    "COKE": {
+      "countyFips": "48081",
+      "countyName": "Coke",
+      "population": 3305,
+      "medianHouseholdIncome": 40230
+    },
+    "COLEMAN": {
+      "countyFips": "48083",
+      "countyName": "Coleman",
+      "population": 7808,
+      "medianHouseholdIncome": 51034
+    },
+    "COLLIN": {
+      "countyFips": "48085",
+      "countyName": "Collin",
+      "population": 1079153,
+      "medianHouseholdIncome": 113255
+    },
+    "COLLINGSWORTH": {
+      "countyFips": "48087",
+      "countyName": "Collingsworth",
+      "population": 2865,
+      "medianHouseholdIncome": 52045
+    },
+    "COLORADO": {
+      "countyFips": "48089",
+      "countyName": "Colorado",
+      "population": 20582,
+      "medianHouseholdIncome": 63352
+    },
+    "COMAL": {
+      "countyFips": "48091",
+      "countyName": "Comal",
+      "population": 165201,
+      "medianHouseholdIncome": 93744
+    },
+    "COMANCHE": {
+      "countyFips": "48093",
+      "countyName": "Comanche",
+      "population": 13651,
+      "medianHouseholdIncome": 57383
+    },
+    "CONCHO": {
+      "countyFips": "48095",
+      "countyName": "Concho",
+      "population": 3235,
+      "medianHouseholdIncome": 55750
+    },
+    "COOKE": {
+      "countyFips": "48097",
+      "countyName": "Cooke",
+      "population": 41860,
+      "medianHouseholdIncome": 66374
+    },
+    "CORYELL": {
+      "countyFips": "48099",
+      "countyName": "Coryell",
+      "population": 82927,
+      "medianHouseholdIncome": 63281
+    },
+    "COTTLE": {
+      "countyFips": "48101",
+      "countyName": "Cottle",
+      "population": 1647,
+      "medianHouseholdIncome": 47625
+    },
+    "CRANE": {
+      "countyFips": "48103",
+      "countyName": "Crane",
+      "population": 4636,
+      "medianHouseholdIncome": 71364
+    },
+    "CROCKETT": {
+      "countyFips": "48105",
+      "countyName": "Crockett",
+      "population": 2949,
+      "medianHouseholdIncome": 64103
+    },
+    "CROSBY": {
+      "countyFips": "48107",
+      "countyName": "Crosby",
+      "population": 5157,
+      "medianHouseholdIncome": 50268
+    },
+    "CULBERSON": {
+      "countyFips": "48109",
+      "countyName": "Culberson",
+      "population": 2181,
+      "medianHouseholdIncome": 35924
+    },
+    "DALLAM": {
+      "countyFips": "48111",
+      "countyName": "Dallam",
+      "population": 7165,
+      "medianHouseholdIncome": 71969
+    },
+    "DALLAS": {
+      "countyFips": "48113",
+      "countyName": "Dallas",
+      "population": 2604053,
+      "medianHouseholdIncome": 70732
+    },
+    "DAWSON": {
+      "countyFips": "48115",
+      "countyName": "Dawson",
+      "population": 12342,
+      "medianHouseholdIncome": 45268
+    },
+    "DEAF SMITH": {
+      "countyFips": "48117",
+      "countyName": "Deaf Smith",
+      "population": 18585,
+      "medianHouseholdIncome": 51942
+    },
+    "DELTA": {
+      "countyFips": "48119",
+      "countyName": "Delta",
+      "population": 5278,
+      "medianHouseholdIncome": 68491
+    },
+    "DENTON": {
+      "countyFips": "48121",
+      "countyName": "Denton",
+      "population": 914870,
+      "medianHouseholdIncome": 104180
+    },
+    "DEWITT": {
+      "countyFips": "48123",
+      "countyName": "DeWitt",
+      "population": 19826,
+      "medianHouseholdIncome": 61100
+    },
+    "DICKENS": {
+      "countyFips": "48125",
+      "countyName": "Dickens",
+      "population": 1570,
+      "medianHouseholdIncome": 46638
+    },
+    "DIMMIT": {
+      "countyFips": "48127",
+      "countyName": "Dimmit",
+      "population": 8672,
+      "medianHouseholdIncome": 27374
+    },
+    "DONLEY": {
+      "countyFips": "48129",
+      "countyName": "Donley",
+      "population": 3298,
+      "medianHouseholdIncome": 51711
+    },
+    "DUVAL": {
+      "countyFips": "48131",
+      "countyName": "Duval",
+      "population": 9960,
+      "medianHouseholdIncome": 50697
+    },
+    "EASTLAND": {
+      "countyFips": "48133",
+      "countyName": "Eastland",
+      "population": 17812,
+      "medianHouseholdIncome": 52902
+    },
+    "ECTOR": {
+      "countyFips": "48135",
+      "countyName": "Ector",
+      "population": 162300,
+      "medianHouseholdIncome": 70566
+    },
+    "EDWARDS": {
+      "countyFips": "48137",
+      "countyName": "Edwards",
+      "population": 1380,
+      "medianHouseholdIncome": 40809
+    },
+    "ELLIS": {
+      "countyFips": "48139",
+      "countyName": "Ellis",
+      "population": 195509,
+      "medianHouseholdIncome": 93248
+    },
+    "EL PASO": {
+      "countyFips": "48141",
+      "countyName": "El Paso",
+      "population": 863832,
+      "medianHouseholdIncome": 55417
+    },
+    "ERATH": {
+      "countyFips": "48143",
+      "countyName": "Erath",
+      "population": 42788,
+      "medianHouseholdIncome": 59654
+    },
+    "FALLS": {
+      "countyFips": "48145",
+      "countyName": "Falls",
+      "population": 17013,
+      "medianHouseholdIncome": 45172
+    },
+    "FANNIN": {
+      "countyFips": "48147",
+      "countyName": "Fannin",
+      "population": 36052,
+      "medianHouseholdIncome": 65835
+    },
+    "FAYETTE": {
+      "countyFips": "48149",
+      "countyName": "Fayette",
+      "population": 24564,
+      "medianHouseholdIncome": 72881
+    },
+    "FISHER": {
+      "countyFips": "48151",
+      "countyName": "Fisher",
+      "population": 3680,
+      "medianHouseholdIncome": 60461
+    },
+    "FLOYD": {
+      "countyFips": "48153",
+      "countyName": "Floyd",
+      "population": 5386,
+      "medianHouseholdIncome": 49321
+    },
+    "FOARD": {
+      "countyFips": "48155",
+      "countyName": "Foard",
+      "population": 1075,
+      "medianHouseholdIncome": 41944
+    },
+    "FORT BEND": {
+      "countyFips": "48157",
+      "countyName": "Fort Bend",
+      "population": 832607,
+      "medianHouseholdIncome": 109987
+    },
+    "FRANKLIN": {
+      "countyFips": "48159",
+      "countyName": "Franklin",
+      "population": 10445,
+      "medianHouseholdIncome": 67915
+    },
+    "FREESTONE": {
+      "countyFips": "48161",
+      "countyName": "Freestone",
+      "population": 19599,
+      "medianHouseholdIncome": 55902
+    },
+    "FRIO": {
+      "countyFips": "48163",
+      "countyName": "Frio",
+      "population": 18151,
+      "medianHouseholdIncome": 56042
+    },
+    "GAINES": {
+      "countyFips": "48165",
+      "countyName": "Gaines",
+      "population": 21523,
+      "medianHouseholdIncome": 73299
+    },
+    "GALVESTON": {
+      "countyFips": "48167",
+      "countyName": "Galveston",
+      "population": 350801,
+      "medianHouseholdIncome": 83913
+    },
+    "GARZA": {
+      "countyFips": "48169",
+      "countyName": "Garza",
+      "population": 5735,
+      "medianHouseholdIncome": 56215
+    },
+    "GILLESPIE": {
+      "countyFips": "48171",
+      "countyName": "Gillespie",
+      "population": 26953,
+      "medianHouseholdIncome": 70162
+    },
+    "GLASSCOCK": {
+      "countyFips": "48173",
+      "countyName": "Glasscock",
+      "population": 1068,
+      "medianHouseholdIncome": 112188
+    },
+    "GOLIAD": {
+      "countyFips": "48175",
+      "countyName": "Goliad",
+      "population": 7092,
+      "medianHouseholdIncome": 58125
+    },
+    "GONZALES": {
+      "countyFips": "48177",
+      "countyName": "Gonzales",
+      "population": 19736,
+      "medianHouseholdIncome": 64255
+    },
+    "GRAY": {
+      "countyFips": "48179",
+      "countyName": "Gray",
+      "population": 21272,
+      "medianHouseholdIncome": 54563
+    },
+    "GRAYSON": {
+      "countyFips": "48181",
+      "countyName": "Grayson",
+      "population": 137008,
+      "medianHouseholdIncome": 66608
+    },
+    "GREGG": {
+      "countyFips": "48183",
+      "countyName": "Gregg",
+      "population": 124245,
+      "medianHouseholdIncome": 63811
+    },
+    "GRIMES": {
+      "countyFips": "48185",
+      "countyName": "Grimes",
+      "population": 29442,
+      "medianHouseholdIncome": 63484
+    },
+    "GUADALUPE": {
+      "countyFips": "48187",
+      "countyName": "Guadalupe",
+      "population": 173828,
+      "medianHouseholdIncome": 88111
+    },
+    "HALE": {
+      "countyFips": "48189",
+      "countyName": "Hale",
+      "population": 32525,
+      "medianHouseholdIncome": 50721
+    },
+    "HALL": {
+      "countyFips": "48191",
+      "countyName": "Hall",
+      "population": 2847,
+      "medianHouseholdIncome": 43873
+    },
+    "HAMILTON": {
+      "countyFips": "48193",
+      "countyName": "Hamilton",
+      "population": 8244,
+      "medianHouseholdIncome": 54890
+    },
+    "HANSFORD": {
+      "countyFips": "48195",
+      "countyName": "Hansford",
+      "population": 5270,
+      "medianHouseholdIncome": 62350
+    },
+    "HARDEMAN": {
+      "countyFips": "48197",
+      "countyName": "Hardeman",
+      "population": 3541,
+      "medianHouseholdIncome": 60455
+    },
+    "HARDIN": {
+      "countyFips": "48199",
+      "countyName": "Hardin",
+      "population": 56576,
+      "medianHouseholdIncome": 70164
+    },
+    "HARRIS": {
+      "countyFips": "48201",
+      "countyName": "Harris",
+      "population": 4726177,
+      "medianHouseholdIncome": 70789
+    },
+    "HARRISON": {
+      "countyFips": "48203",
+      "countyName": "Harrison",
+      "population": 69098,
+      "medianHouseholdIncome": 63427
+    },
+    "HARTLEY": {
+      "countyFips": "48205",
+      "countyName": "Hartley",
+      "population": 5369,
+      "medianHouseholdIncome": 78065
+    },
+    "HASKELL": {
+      "countyFips": "48207",
+      "countyName": "Haskell",
+      "population": 5408,
+      "medianHouseholdIncome": 52786
+    },
+    "HAYS": {
+      "countyFips": "48209",
+      "countyName": "Hays",
+      "population": 245351,
+      "medianHouseholdIncome": 79990
+    },
+    "HEMPHILL": {
+      "countyFips": "48211",
+      "countyName": "Hemphill",
+      "population": 3371,
+      "medianHouseholdIncome": 67798
+    },
+    "HENDERSON": {
+      "countyFips": "48213",
+      "countyName": "Henderson",
+      "population": 82627,
+      "medianHouseholdIncome": 59778
+    },
+    "HIDALGO": {
+      "countyFips": "48215",
+      "countyName": "Hidalgo",
+      "population": 873167,
+      "medianHouseholdIncome": 49371
+    },
+    "HILL": {
+      "countyFips": "48217",
+      "countyName": "Hill",
+      "population": 36138,
+      "medianHouseholdIncome": 60669
+    },
+    "HOCKLEY": {
+      "countyFips": "48219",
+      "countyName": "Hockley",
+      "population": 21495,
+      "medianHouseholdIncome": 53283
+    },
+    "HOOD": {
+      "countyFips": "48221",
+      "countyName": "Hood",
+      "population": 62459,
+      "medianHouseholdIncome": 80013
+    },
+    "HOPKINS": {
+      "countyFips": "48223",
+      "countyName": "Hopkins",
+      "population": 37008,
+      "medianHouseholdIncome": 63766
+    },
+    "HOUSTON": {
+      "countyFips": "48225",
+      "countyName": "Houston",
+      "population": 22107,
+      "medianHouseholdIncome": 51043
+    },
+    "HOWARD": {
+      "countyFips": "48227",
+      "countyName": "Howard",
+      "population": 34488,
+      "medianHouseholdIncome": 67243
+    },
+    "HUDSPETH": {
+      "countyFips": "48229",
+      "countyName": "Hudspeth",
+      "population": 3329,
+      "medianHouseholdIncome": 35163
+    },
+    "HUNT": {
+      "countyFips": "48231",
+      "countyName": "Hunt",
+      "population": 101596,
+      "medianHouseholdIncome": 66885
+    },
+    "HUTCHINSON": {
+      "countyFips": "48233",
+      "countyName": "Hutchinson",
+      "population": 20595,
+      "medianHouseholdIncome": 62211
+    },
+    "IRION": {
+      "countyFips": "48235",
+      "countyName": "Irion",
+      "population": 1561,
+      "medianHouseholdIncome": 54708
+    },
+    "JACK": {
+      "countyFips": "48237",
+      "countyName": "Jack",
+      "population": 8588,
+      "medianHouseholdIncome": 58861
+    },
+    "JACKSON": {
+      "countyFips": "48239",
+      "countyName": "Jackson",
+      "population": 15010,
+      "medianHouseholdIncome": 67176
+    },
+    "JASPER": {
+      "countyFips": "48241",
+      "countyName": "Jasper",
+      "population": 33032,
+      "medianHouseholdIncome": 48818
+    },
+    "JEFF DAVIS": {
+      "countyFips": "48243",
+      "countyName": "Jeff Davis",
+      "population": 1992,
+      "medianHouseholdIncome": 38125
+    },
+    "JEFFERSON": {
+      "countyFips": "48245",
+      "countyName": "Jefferson",
+      "population": 254942,
+      "medianHouseholdIncome": 57294
+    },
+    "JIM HOGG": {
+      "countyFips": "48247",
+      "countyName": "Jim Hogg",
+      "population": 4830,
+      "medianHouseholdIncome": 42292
+    },
+    "JIM WELLS": {
+      "countyFips": "48249",
+      "countyName": "Jim Wells",
+      "population": 39060,
+      "medianHouseholdIncome": 46626
+    },
+    "JOHNSON": {
+      "countyFips": "48251",
+      "countyName": "Johnson",
+      "population": 182690,
+      "medianHouseholdIncome": 77058
+    },
+    "JONES": {
+      "countyFips": "48253",
+      "countyName": "Jones",
+      "population": 19758,
+      "medianHouseholdIncome": 59361
+    },
+    "KARNES": {
+      "countyFips": "48255",
+      "countyName": "Karnes",
+      "population": 14805,
+      "medianHouseholdIncome": 57798
+    },
+    "KAUFMAN": {
+      "countyFips": "48257",
+      "countyName": "Kaufman",
+      "population": 149773,
+      "medianHouseholdIncome": 84075
+    },
+    "KENDALL": {
+      "countyFips": "48259",
+      "countyName": "Kendall",
+      "population": 45376,
+      "medianHouseholdIncome": 104196
+    },
+    "KENEDY": {
+      "countyFips": "48261",
+      "countyName": "Kenedy",
+      "population": 116,
+      "medianHouseholdIncome": 45455
+    },
+    "KENT": {
+      "countyFips": "48263",
+      "countyName": "Kent",
+      "population": 635,
+      "medianHouseholdIncome": 68553
+    },
+    "KERR": {
+      "countyFips": "48265",
+      "countyName": "Kerr",
+      "population": 52810,
+      "medianHouseholdIncome": 66713
+    },
+    "KIMBLE": {
+      "countyFips": "48267",
+      "countyName": "Kimble",
+      "population": 4316,
+      "medianHouseholdIncome": 62386
+    },
+    "KING": {
+      "countyFips": "48269",
+      "countyName": "King",
+      "population": 216,
+      "medianHouseholdIncome": 59375
+    },
+    "KINNEY": {
+      "countyFips": "48271",
+      "countyName": "Kinney",
+      "population": 3157,
+      "medianHouseholdIncome": 52386
+    },
+    "KLEBERG": {
+      "countyFips": "48273",
+      "countyName": "Kleberg",
+      "population": 30860,
+      "medianHouseholdIncome": 52487
+    },
+    "KNOX": {
+      "countyFips": "48275",
+      "countyName": "Knox",
+      "population": 3333,
+      "medianHouseholdIncome": 48750
+    },
+    "LAMAR": {
+      "countyFips": "48277",
+      "countyName": "Lamar",
+      "population": 50149,
+      "medianHouseholdIncome": 58246
+    },
+    "LAMB": {
+      "countyFips": "48279",
+      "countyName": "Lamb",
+      "population": 13024,
+      "medianHouseholdIncome": 54519
+    },
+    "LAMPASAS": {
+      "countyFips": "48281",
+      "countyName": "Lampasas",
+      "population": 21829,
+      "medianHouseholdIncome": 73269
+    },
+    "LA SALLE": {
+      "countyFips": "48283",
+      "countyName": "La Salle",
+      "population": 6965,
+      "medianHouseholdIncome": 62798
+    },
+    "LAVACA": {
+      "countyFips": "48285",
+      "countyName": "Lavaca",
+      "population": 20379,
+      "medianHouseholdIncome": 58530
+    },
+    "LEE": {
+      "countyFips": "48287",
+      "countyName": "Lee",
+      "population": 17543,
+      "medianHouseholdIncome": 66448
+    },
+    "LEON": {
+      "countyFips": "48289",
+      "countyName": "Leon",
+      "population": 15928,
+      "medianHouseholdIncome": 57363
+    },
+    "LIBERTY": {
+      "countyFips": "48291",
+      "countyName": "Liberty",
+      "population": 93523,
+      "medianHouseholdIncome": 59605
+    },
+    "LIMESTONE": {
+      "countyFips": "48293",
+      "countyName": "Limestone",
+      "population": 22222,
+      "medianHouseholdIncome": 53102
+    },
+    "LIPSCOMB": {
+      "countyFips": "48295",
+      "countyName": "Lipscomb",
+      "population": 3038,
+      "medianHouseholdIncome": 71625
+    },
+    "LIVE OAK": {
+      "countyFips": "48297",
+      "countyName": "Live Oak",
+      "population": 11374,
+      "medianHouseholdIncome": 55949
+    },
+    "LLANO": {
+      "countyFips": "48299",
+      "countyName": "Llano",
+      "population": 21637,
+      "medianHouseholdIncome": 64241
+    },
+    "LOVING": {
+      "countyFips": "48301",
+      "countyName": "Loving",
+      "population": 96,
+      "medianHouseholdIncome": -666666666
+    },
+    "LUBBOCK": {
+      "countyFips": "48303",
+      "countyName": "Lubbock",
+      "population": 311509,
+      "medianHouseholdIncome": 61911
+    },
+    "LYNN": {
+      "countyFips": "48305",
+      "countyName": "Lynn",
+      "population": 5619,
+      "medianHouseholdIncome": 52996
+    },
+    "MCCULLOCH": {
+      "countyFips": "48307",
+      "countyName": "McCulloch",
+      "population": 7638,
+      "medianHouseholdIncome": 53214
+    },
+    "MCLENNAN": {
+      "countyFips": "48309",
+      "countyName": "McLennan",
+      "population": 261090,
+      "medianHouseholdIncome": 59781
+    },
+    "MCMULLEN": {
+      "countyFips": "48311",
+      "countyName": "McMullen",
+      "population": 670,
+      "medianHouseholdIncome": 60313
+    },
+    "MADISON": {
+      "countyFips": "48313",
+      "countyName": "Madison",
+      "population": 13556,
+      "medianHouseholdIncome": 65768
+    },
+    "MARION": {
+      "countyFips": "48315",
+      "countyName": "Marion",
+      "population": 9668,
+      "medianHouseholdIncome": 48040
+    },
+    "MARTIN": {
+      "countyFips": "48317",
+      "countyName": "Martin",
+      "population": 5228,
+      "medianHouseholdIncome": 70217
+    },
+    "MASON": {
+      "countyFips": "48319",
+      "countyName": "Mason",
+      "population": 3959,
+      "medianHouseholdIncome": 77583
+    },
+    "MATAGORDA": {
+      "countyFips": "48321",
+      "countyName": "Matagorda",
+      "population": 36251,
+      "medianHouseholdIncome": 56412
+    },
+    "MAVERICK": {
+      "countyFips": "48323",
+      "countyName": "Maverick",
+      "population": 57806,
+      "medianHouseholdIncome": 48497
+    },
+    "MEDINA": {
+      "countyFips": "48325",
+      "countyName": "Medina",
+      "population": 51432,
+      "medianHouseholdIncome": 73060
+    },
+    "MENARD": {
+      "countyFips": "48327",
+      "countyName": "Menard",
+      "population": 1964,
+      "medianHouseholdIncome": 40945
+    },
+    "MIDLAND": {
+      "countyFips": "48329",
+      "countyName": "Midland",
+      "population": 169393,
+      "medianHouseholdIncome": 90123
+    },
+    "MILAM": {
+      "countyFips": "48331",
+      "countyName": "Milam",
+      "population": 25080,
+      "medianHouseholdIncome": 56985
+    },
+    "MILLS": {
+      "countyFips": "48333",
+      "countyName": "Mills",
+      "population": 4501,
+      "medianHouseholdIncome": 59315
+    },
+    "MITCHELL": {
+      "countyFips": "48335",
+      "countyName": "Mitchell",
+      "population": 8947,
+      "medianHouseholdIncome": 49869
+    },
+    "MONTAGUE": {
+      "countyFips": "48337",
+      "countyName": "Montague",
+      "population": 20197,
+      "medianHouseholdIncome": 63336
+    },
+    "MONTGOMERY": {
+      "countyFips": "48339",
+      "countyName": "Montgomery",
+      "population": 629989,
+      "medianHouseholdIncome": 95946
+    },
+    "MOORE": {
+      "countyFips": "48341",
+      "countyName": "Moore",
+      "population": 21284,
+      "medianHouseholdIncome": 59041
+    },
+    "MORRIS": {
+      "countyFips": "48343",
+      "countyName": "Morris",
+      "population": 11993,
+      "medianHouseholdIncome": 51532
+    },
+    "MOTLEY": {
+      "countyFips": "48345",
+      "countyName": "Motley",
+      "population": 1223,
+      "medianHouseholdIncome": 66528
+    },
+    "NACOGDOCHES": {
+      "countyFips": "48347",
+      "countyName": "Nacogdoches",
+      "population": 64768,
+      "medianHouseholdIncome": 51153
+    },
+    "NAVARRO": {
+      "countyFips": "48349",
+      "countyName": "Navarro",
+      "population": 52834,
+      "medianHouseholdIncome": 56261
+    },
+    "NEWTON": {
+      "countyFips": "48351",
+      "countyName": "Newton",
+      "population": 12333,
+      "medianHouseholdIncome": 38871
+    },
+    "NOLAN": {
+      "countyFips": "48353",
+      "countyName": "Nolan",
+      "population": 14657,
+      "medianHouseholdIncome": 47437
+    },
+    "NUECES": {
+      "countyFips": "48355",
+      "countyName": "Nueces",
+      "population": 353245,
+      "medianHouseholdIncome": 64027
+    },
+    "OCHILTREE": {
+      "countyFips": "48357",
+      "countyName": "Ochiltree",
+      "population": 9924,
+      "medianHouseholdIncome": 62240
+    },
+    "OLDHAM": {
+      "countyFips": "48359",
+      "countyName": "Oldham",
+      "population": 2171,
+      "medianHouseholdIncome": 71103
+    },
+    "ORANGE": {
+      "countyFips": "48361",
+      "countyName": "Orange",
+      "population": 84761,
+      "medianHouseholdIncome": 71910
+    },
+    "PALO PINTO": {
+      "countyFips": "48363",
+      "countyName": "Palo Pinto",
+      "population": 28569,
+      "medianHouseholdIncome": 65242
+    },
+    "PANOLA": {
+      "countyFips": "48365",
+      "countyName": "Panola",
+      "population": 22540,
+      "medianHouseholdIncome": 58205
+    },
+    "PARKER": {
+      "countyFips": "48367",
+      "countyName": "Parker",
+      "population": 151188,
+      "medianHouseholdIncome": 95721
+    },
+    "PARMER": {
+      "countyFips": "48369",
+      "countyName": "Parmer",
+      "population": 9809,
+      "medianHouseholdIncome": 65575
+    },
+    "PECOS": {
+      "countyFips": "48371",
+      "countyName": "Pecos",
+      "population": 15114,
+      "medianHouseholdIncome": 59325
+    },
+    "POLK": {
+      "countyFips": "48373",
+      "countyName": "Polk",
+      "population": 50536,
+      "medianHouseholdIncome": 57315
+    },
+    "POTTER": {
+      "countyFips": "48375",
+      "countyName": "Potter",
+      "population": 117905,
+      "medianHouseholdIncome": 47974
+    },
+    "PRESIDIO": {
+      "countyFips": "48377",
+      "countyName": "Presidio",
+      "population": 6168,
+      "medianHouseholdIncome": 29012
+    },
+    "RAINS": {
+      "countyFips": "48379",
+      "countyName": "Rains",
+      "population": 12257,
+      "medianHouseholdIncome": 60291
+    },
+    "RANDALL": {
+      "countyFips": "48381",
+      "countyName": "Randall",
+      "population": 141489,
+      "medianHouseholdIncome": 78038
+    },
+    "REAGAN": {
+      "countyFips": "48383",
+      "countyName": "Reagan",
+      "population": 3308,
+      "medianHouseholdIncome": 70319
+    },
+    "REAL": {
+      "countyFips": "48385",
+      "countyName": "Real",
+      "population": 2830,
+      "medianHouseholdIncome": 46842
+    },
+    "RED RIVER": {
+      "countyFips": "48387",
+      "countyName": "Red River",
+      "population": 11627,
+      "medianHouseholdIncome": 44583
+    },
+    "REEVES": {
+      "countyFips": "48389",
+      "countyName": "Reeves",
+      "population": 14022,
+      "medianHouseholdIncome": 57487
+    },
+    "REFUGIO": {
+      "countyFips": "48391",
+      "countyName": "Refugio",
+      "population": 6718,
+      "medianHouseholdIncome": 54304
+    },
+    "ROBERTS": {
+      "countyFips": "48393",
+      "countyName": "Roberts",
+      "population": 764,
+      "medianHouseholdIncome": 62667
+    },
+    "ROBERTSON": {
+      "countyFips": "48395",
+      "countyName": "Robertson",
+      "population": 16912,
+      "medianHouseholdIncome": 59410
+    },
+    "ROCKWALL": {
+      "countyFips": "48397",
+      "countyName": "Rockwall",
+      "population": 110631,
+      "medianHouseholdIncome": 121303
+    },
+    "RUNNELS": {
+      "countyFips": "48399",
+      "countyName": "Runnels",
+      "population": 9858,
+      "medianHouseholdIncome": 55424
+    },
+    "RUSK": {
+      "countyFips": "48401",
+      "countyName": "Rusk",
+      "population": 52755,
+      "medianHouseholdIncome": 61661
+    },
+    "SABINE": {
+      "countyFips": "48403",
+      "countyName": "Sabine",
+      "population": 9980,
+      "medianHouseholdIncome": 47061
+    },
+    "SAN AUGUSTINE": {
+      "countyFips": "48405",
+      "countyName": "San Augustine",
+      "population": 7920,
+      "medianHouseholdIncome": 45888
+    },
+    "SAN JACINTO": {
+      "countyFips": "48407",
+      "countyName": "San Jacinto",
+      "population": 27666,
+      "medianHouseholdIncome": 54839
+    },
+    "SAN PATRICIO": {
+      "countyFips": "48409",
+      "countyName": "San Patricio",
+      "population": 68942,
+      "medianHouseholdIncome": 63842
+    },
+    "SAN SABA": {
+      "countyFips": "48411",
+      "countyName": "San Saba",
+      "population": 5779,
+      "medianHouseholdIncome": 54087
+    },
+    "SCHLEICHER": {
+      "countyFips": "48413",
+      "countyName": "Schleicher",
+      "population": 2474,
+      "medianHouseholdIncome": 53774
+    },
+    "SCURRY": {
+      "countyFips": "48415",
+      "countyName": "Scurry",
+      "population": 16883,
+      "medianHouseholdIncome": 58932
+    },
+    "SHACKELFORD": {
+      "countyFips": "48417",
+      "countyName": "Shackelford",
+      "population": 3134,
+      "medianHouseholdIncome": 60924
+    },
+    "SHELBY": {
+      "countyFips": "48419",
+      "countyName": "Shelby",
+      "population": 24157,
+      "medianHouseholdIncome": 49231
+    },
+    "SHERMAN": {
+      "countyFips": "48421",
+      "countyName": "Sherman",
+      "population": 2414,
+      "medianHouseholdIncome": 66169
+    },
+    "SMITH": {
+      "countyFips": "48423",
+      "countyName": "Smith",
+      "population": 234667,
+      "medianHouseholdIncome": 69053
+    },
+    "SOMERVELL": {
+      "countyFips": "48425",
+      "countyName": "Somervell",
+      "population": 9337,
+      "medianHouseholdIncome": 87899
+    },
+    "STARR": {
+      "countyFips": "48427",
+      "countyName": "Starr",
+      "population": 65716,
+      "medianHouseholdIncome": 35979
+    },
+    "STEPHENS": {
+      "countyFips": "48429",
+      "countyName": "Stephens",
+      "population": 9260,
+      "medianHouseholdIncome": 44712
+    },
+    "STERLING": {
+      "countyFips": "48431",
+      "countyName": "Sterling",
+      "population": 1392,
+      "medianHouseholdIncome": 63558
+    },
+    "STONEWALL": {
+      "countyFips": "48433",
+      "countyName": "Stonewall",
+      "population": 1331,
+      "medianHouseholdIncome": 66591
+    },
+    "SUTTON": {
+      "countyFips": "48435",
+      "countyName": "Sutton",
+      "population": 3345,
+      "medianHouseholdIncome": 56778
+    },
+    "SWISHER": {
+      "countyFips": "48437",
+      "countyName": "Swisher",
+      "population": 6989,
+      "medianHouseholdIncome": 40290
+    },
+    "TARRANT": {
+      "countyFips": "48439",
+      "countyName": "Tarrant",
+      "population": 2113854,
+      "medianHouseholdIncome": 78872
+    },
+    "TAYLOR": {
+      "countyFips": "48441",
+      "countyName": "Taylor",
+      "population": 143029,
+      "medianHouseholdIncome": 61806
+    },
+    "TERRELL": {
+      "countyFips": "48443",
+      "countyName": "Terrell",
+      "population": 862,
+      "medianHouseholdIncome": 52813
+    },
+    "TERRY": {
+      "countyFips": "48445",
+      "countyName": "Terry",
+      "population": 11816,
+      "medianHouseholdIncome": 42694
+    },
+    "THROCKMORTON": {
+      "countyFips": "48447",
+      "countyName": "Throckmorton",
+      "population": 1439,
+      "medianHouseholdIncome": 55221
+    },
+    "TITUS": {
+      "countyFips": "48449",
+      "countyName": "Titus",
+      "population": 31301,
+      "medianHouseholdIncome": 57634
+    },
+    "TOM GREEN": {
+      "countyFips": "48451",
+      "countyName": "Tom Green",
+      "population": 119276,
+      "medianHouseholdIncome": 67215
+    },
+    "TRAVIS": {
+      "countyFips": "48453",
+      "countyName": "Travis",
+      "population": 1289054,
+      "medianHouseholdIncome": 92731
+    },
+    "TRINITY": {
+      "countyFips": "48455",
+      "countyName": "Trinity",
+      "population": 13735,
+      "medianHouseholdIncome": 51165
+    },
+    "TYLER": {
+      "countyFips": "48457",
+      "countyName": "Tyler",
+      "population": 19962,
+      "medianHouseholdIncome": 50898
+    },
+    "UPSHUR": {
+      "countyFips": "48459",
+      "countyName": "Upshur",
+      "population": 41261,
+      "medianHouseholdIncome": 60456
+    },
+    "UPTON": {
+      "countyFips": "48461",
+      "countyName": "Upton",
+      "population": 3284,
+      "medianHouseholdIncome": 55284
+    },
+    "UVALDE": {
+      "countyFips": "48463",
+      "countyName": "Uvalde",
+      "population": 24833,
+      "medianHouseholdIncome": 55000
+    },
+    "VAL VERDE": {
+      "countyFips": "48465",
+      "countyName": "Val Verde",
+      "population": 47693,
+      "medianHouseholdIncome": 57250
+    },
+    "VAN ZANDT": {
+      "countyFips": "48467",
+      "countyName": "Van Zandt",
+      "population": 60053,
+      "medianHouseholdIncome": 62334
+    },
+    "VICTORIA": {
+      "countyFips": "48469",
+      "countyName": "Victoria",
+      "population": 91209,
+      "medianHouseholdIncome": 66308
+    },
+    "WALKER": {
+      "countyFips": "48471",
+      "countyName": "Walker",
+      "population": 77182,
+      "medianHouseholdIncome": 47193
+    },
+    "WALLER": {
+      "countyFips": "48473",
+      "countyName": "Waller",
+      "population": 57463,
+      "medianHouseholdIncome": 71643
+    },
+    "WARD": {
+      "countyFips": "48475",
+      "countyName": "Ward",
+      "population": 11347,
+      "medianHouseholdIncome": 70771
+    },
+    "WASHINGTON": {
+      "countyFips": "48477",
+      "countyName": "Washington",
+      "population": 35807,
+      "medianHouseholdIncome": 70043
+    },
+    "WEBB": {
+      "countyFips": "48479",
+      "countyName": "Webb",
+      "population": 267282,
+      "medianHouseholdIncome": 59984
+    },
+    "WHARTON": {
+      "countyFips": "48481",
+      "countyName": "Wharton",
+      "population": 41614,
+      "medianHouseholdIncome": 59712
+    },
+    "WHEELER": {
+      "countyFips": "48483",
+      "countyName": "Wheeler",
+      "population": 4980,
+      "medianHouseholdIncome": 58158
+    },
+    "WICHITA": {
+      "countyFips": "48485",
+      "countyName": "Wichita",
+      "population": 129584,
+      "medianHouseholdIncome": 58862
+    },
+    "WILBARGER": {
+      "countyFips": "48487",
+      "countyName": "Wilbarger",
+      "population": 12795,
+      "medianHouseholdIncome": 50769
+    },
+    "WILLACY": {
+      "countyFips": "48489",
+      "countyName": "Willacy",
+      "population": 20308,
+      "medianHouseholdIncome": 42839
+    },
+    "WILLIAMSON": {
+      "countyFips": "48491",
+      "countyName": "Williamson",
+      "population": 617396,
+      "medianHouseholdIncome": 102851
+    },
+    "WILSON": {
+      "countyFips": "48493",
+      "countyName": "Wilson",
+      "population": 50381,
+      "medianHouseholdIncome": 89708
+    },
+    "WINKLER": {
+      "countyFips": "48495",
+      "countyName": "Winkler",
+      "population": 7582,
+      "medianHouseholdIncome": 89155
+    },
+    "WISE": {
+      "countyFips": "48497",
+      "countyName": "Wise",
+      "population": 70062,
+      "medianHouseholdIncome": 85385
+    },
+    "WOOD": {
+      "countyFips": "48499",
+      "countyName": "Wood",
+      "population": 45341,
+      "medianHouseholdIncome": 61748
+    },
+    "YOAKUM": {
+      "countyFips": "48501",
+      "countyName": "Yoakum",
+      "population": 7630,
+      "medianHouseholdIncome": 80317
+    },
+    "YOUNG": {
+      "countyFips": "48503",
+      "countyName": "Young",
+      "population": 17903,
+      "medianHouseholdIncome": 65565
+    },
+    "ZAPATA": {
+      "countyFips": "48505",
+      "countyName": "Zapata",
+      "population": 13896,
+      "medianHouseholdIncome": 35061
+    },
+    "ZAVALA": {
+      "countyFips": "48507",
+      "countyName": "Zavala",
+      "population": 9700,
+      "medianHouseholdIncome": 49243
+    }
+  }
+}
